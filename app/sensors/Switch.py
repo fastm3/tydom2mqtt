@@ -47,8 +47,8 @@ class Switch:
                 id=self.id),
             'json_attributes_topic': switch_attributes_topic.format(
                 id=self.id),
-            'payload_on': "TOGGLE",
-            'payload_off': "TOGGLE",
+            'payload_on': "ON",
+            'payload_off': "OFF",
             'retain': 'false',
             'device': self.device}
 
